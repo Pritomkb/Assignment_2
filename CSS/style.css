@@ -14,7 +14,9 @@
   /* header nav  */
 
 .header{
-    padding: 30px;
+    /* margin: 20px 100px; */
+    padding: 50px;
+
 }
 .navbar{
     display: flex;
@@ -84,12 +86,74 @@ ul{
 }
 #ac {
     display: none;
-  }
+}
+
+
+  /* section 1   */
+
+
+
+#op1 {
+    margin: 20px 100px;
+}
+.op1{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+}
+
+#op1 h2{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    text-align: left;
+}
+#op1 p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+#op1 button{
+    border: none;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    margin: 0 30px 0 0;
+}
+.card2 img{
+    width: 100%;
+    margin-top: -10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Mobile size */
 @media screen and (max-width: 576px) {
-    h2,
-    button{
+    .navh2,
+    .Contact{
         display: none;
     }
     .three{
@@ -99,8 +163,8 @@ ul{
       }
     ul {
         position: fixed;
-        top: 140px;
-        right: -100%;
+        top: 100px;
+        right: -1000%;
         background-color: rgb(29, 27, 27);
         width: 20%;
         /* height: 100vh; */
@@ -123,6 +187,35 @@ ul{
         display: block;
         padding: 0%;
         border-bottom: 1.5px solid rgb(254, 163, 1);
-        margin-top: 20px;
     }
+    #op1 {
+        margin: 0;
+        padding: 0;
+    }
+    .op1{
+        margin-top: 20% ;
+        display: flex;
+        flex-direction: column-reverse;
+        /* grid-template-columns: 1fr; */
+        /* gap: 20px; */
+    }
+    #op1 h2 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 41px;
+    }
+    .card1{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .card2{
+
+    }
+    #op1 img{
+        width: 100%;
+        
+    }
+
 }
