@@ -220,13 +220,16 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
+
 /* section 3 */
+
+
 .section3{
     background: url("../IMG/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
     /* background-repeat: no-repeat; */
 }
 #op3 h3, .op3{
-    margin: 15% 100px;
+    margin: 15% 100px 0 100px;
    
 }
 .op3 {
@@ -304,6 +307,79 @@ margin: 15% -100% 15% 0;
     color: rgb(255, 255, 255);
     margin: 0 30px 0 0;
 }
+
+   /* Footer  */
+
+   #footer {
+    background: rgb(1, 172, 253);
+   }
+.end{
+    margin: 0 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    padding: 100px 0;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+  /* 1 */
+  .foot1{
+    margin-bottom: 5%;
+  }
+  .log img{
+    width: 25%;
+    height: 20%;
+  }
+  .foot1 h3{
+    margin-top: 2%;
+    font-size: 42.14px;
+    font-weight: 700;
+    line-height: 39.51px;
+
+  }
+  .foot1 p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+   /* 2 */
+  
+   .foot2{
+    margin-top: -10%;
+    margin-left: 25%;
+    padding: 0 25px;
+   }
+  
+.foot2 h4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+.foot2 h6{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+   /* 3  */
+    
+.foot3{
+margin-left: 25%;
+}
+.foot3 h4{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.si {
+    gap: 150px;
+}
+
+
+
+
+
 
 
 
@@ -439,7 +515,25 @@ margin: 15% -100% 15% 0;
     font-weight: 700;
     line-height: 17px;
 }
+  
 
+/* footer  */
+.end{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    color: #ffffff;
+}
+.foot1 p{
+    padding: 18px;
+}
+.foot2{
+    margin: 0;
 
+}
+.foot3{
+    margin: 0;
+    padding: 20px;
+}
 
 }
