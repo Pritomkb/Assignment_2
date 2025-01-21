@@ -426,14 +426,13 @@ margin: 15% -100% 15% 0;
     font-weight: 500;
     line-height: 17.76px;
     border-radius: 28.93px;
-    background: rgb(60, 216, 232);
-    padding: 10px 15px;
+    padding: 8px 8px;
     color: rgb(225, 225, 255);
 
 }
 .maine .span3{
     text-align: center;
-    margin-top: -5%;
+    margin-top: -8%;
 }
 .maine h5{
     font-size: 9px;
