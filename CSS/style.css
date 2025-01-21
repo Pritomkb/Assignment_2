@@ -17,6 +17,7 @@
     padding: 30px;
 }
 .navbar{
+    display: flex;
     justify-content: space-between;
     align-items: center;
     /* gap: 186; */
@@ -33,14 +34,7 @@
     margin-right: 30px;
     
 }
-ul li a {
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-  
-ul li a:hover {
-    color: lightgreen;
-  }
+
 #li, #lii, #liii, #liiii {
     text-decoration: none;
     font-weight: 500;
@@ -76,15 +70,26 @@ nav button {
     cursor: pointer;
     display: none;
   }
+ul{
+    display: flex;
+    list-style: none;
+} 
+.nav-item a{
+    text-decoration: none;
+    transition: color 0.3s;
+}
+  
+.nav-item a:hover {
+    color: rgb(243, 198, 0);
+}
 #ac {
     display: none;
   }
 
 /* Mobile size */
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
     h2,
-    button
-    {
+    button{
         display: none;
     }
     .three{
@@ -94,25 +99,30 @@ nav button {
       }
     ul {
         position: fixed;
-        top:100px;
-        right: 10%;
-        background-color: rgb(0, 0, 0);
-        width: 100%;
+        top: 140px;
+        right: -100%;
+        background-color: rgb(29, 27, 27);
+        width: 20%;
         /* height: 100vh; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        transition: all 0.3s;
-      }
-      ul li {
+        transition: all 0.3s ;
+    }
+    ul li {
         margin: 20px 0;
-      }
-      ul li a {
         font-size: 20px;
-      }
-      #ac:checked ~ ul {
+    }
+    
+    #ac:checked ~ ul {
         right: 0;
-      }
-
+    }
+    
+    #navboder{
+        display: block;
+        padding: 0%;
+        border-bottom: 1.5px solid rgb(254, 163, 1);
+        margin-top: 20px;
+    }
 }
