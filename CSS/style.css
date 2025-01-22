@@ -494,6 +494,12 @@ margin-left: 25%;
 
     /* s  2  */
 
+    .op2h3{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 57px;
+        text-align: center;
+    }
     #op2{
         margin: 100px 30px;
         background-image: url("../IMG/bg.png");
